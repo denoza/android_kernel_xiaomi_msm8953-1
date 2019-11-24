@@ -18,7 +18,7 @@ REPACK_DIR=$KERNEL_DIR/AnyKernel3
 OUT=$KERNEL_DIR/out
 VERSION="r25"
 export ARCH=arm64 && export SUBARCH=arm64
-export CROSS_COMPILE="/home/penglezos/kernel/tools/aarch64-linux-android-4.9/bin/aarch64-linux-android-"
+export CROSS_COMPILE=/media/ali/linux/mido/kernels/gtoolchain/bin/aarch64-linux-android-
 
 rm -rf out
 mkdir -p out
