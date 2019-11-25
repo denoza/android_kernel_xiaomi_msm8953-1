@@ -16,7 +16,7 @@ BUILD_START=$(date +"%s")
 KERNEL_DIR=$PWD
 REPACK_DIR=$KERNEL_DIR/AnyKernel3
 OUT=$KERNEL_DIR/out
-VERSION="r25"
+VERSION="r26"
 export ARCH=arm64 && export SUBARCH=arm64
 export CROSS_COMPILE=/media/ali/linux/mido/kernels/gtoolchain/bin/aarch64-linux-android-
 
